@@ -101,7 +101,8 @@ namespace RejectedCardsControlApp
                         }
 
                         // Define the APDU command
-                        byte[] apduCommand = { 0x00, 0xA4, 0x04, 0x0C, 0x06, 0xFF, 0x54, 0x41, 0x43, 0x48, 0x4F };
+                        //içerisini sizin byte dizini ile dolduracaksınız.!!
+                        byte[] apduCommand = { };
 
                         // Use a smaller initial buffer
                         byte[] response = new byte[256];
