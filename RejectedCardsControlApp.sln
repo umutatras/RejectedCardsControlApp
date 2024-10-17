@@ -5,16 +5,20 @@ VisualStudioVersion = 16.0.34931.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RejectedCardsControlApp", "RejectedCardsControlApp\RejectedCardsControlApp.csproj", "{74BF8868-9F48-4C15-95A1-031C65945341}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{7159032F-C175-461F-B581-E9D1FDCFFCA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74BF8868-9F48-4C15-95A1-031C65945341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74BF8868-9F48-4C15-95A1-031C65945341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BF8868-9F48-4C15-95A1-031C65945341}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{74BF8868-9F48-4C15-95A1-031C65945341}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{74BF8868-9F48-4C15-95A1-031C65945341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74BF8868-9F48-4C15-95A1-031C65945341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7159032F-C175-461F-B581-E9D1FDCFFCA5}.Debug|Any CPU.ActiveCfg = Debug
+		{7159032F-C175-461F-B581-E9D1FDCFFCA5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
